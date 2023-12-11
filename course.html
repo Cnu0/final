@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hawassa University Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+<nav>
+  <i class="fa fa-times"onclick="showMenu()" ></i>
+<div class ="nav-links" id="navLinks">
+     <ul>
+      <li><a href="firstweb.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="course.html">COURSE</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+</div>
+<i class="fa fa-bars"></i>
+</nav>
+<h1>Our Courses</h1>
+</section>
+<!-----------course------>
+<section class="course">
+  <h1>  HU offers</h1>
+  <p> 
+    HU offers undergraduate programs,  Masters programs, and PhD programs.
+     </p>
+     <div class="row">
+      <div class="course-col">
+        <h3>Undergraduate Programs:</h3>
+        <p>offers a wide range of undergraduate programs across different faculties and departments. These programs typically span four to five years, depending on the specific field of study. Students can earn bachelor's degrees in disciplines such as engineering, health sciences, business, agriculture, social sciences, natural sciences, and more.</p>
+      </div>
+      <div class="course-col">
+        <h3>Master's Programs</h3>
+        <p> rovides master's programs for students who wish to further enhance their knowledge and expertise in specific fields. These programs usually require two years of study and research. Students can pursue master's degrees in areas such as engineering, health sciences, business administration, economics, social sciences, and natural sciences.</div>
+      <div class="course-col">
+        <h3>PhD Programs</h3>
+        <p>offers PhD programs for those seeking in-depth research and advanced academic qualifications. These programs are typically designed for individuals who have already completed a master's degree in a related field. PhD programs at Hawassa University involve extensive research and the completion of a doctoral dissertation. 
+           </div>
+    </div>
+</section>
+
+<!----facilities-->
+<section class="facilities">
+  <h1>Our Facilities </h1>
+  <p>offers a wide range of facilities to support the academic and personal development of its students. </p>
+
+  <div class="row">
+  <div class="facilities-col">
+    <img src ="images/libr.jpg">
+    <h3>Library</h3>
+    <p>provide a conducive environment for studying and conducting research.</p>
+  </div>
+  <div class="facilities-col">
+    <img src ="images/cafe.jpg">
+    <h3>Cafteria </h3>
+    <p>These dining facilities cater to the diverse food preferences of students.</p>
+  </div>
+  <div class="facilities-col">
+    <img src ="images/lecture.jpg">
+    <h3>Lecture Halls and Classrooms </h3>
+    <p>These spaces create a conducive environment for learning and academic engagement.</p>
+  </div>
+  
+</div>
+</section>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Welcome to Hawassa University, a leading institution committed to excellence in higher education. <br>With a diverse range of programs, dedicated faculty, state-of-the-art facilities, and a focus on research and community engagement, we empower students to excel academically, make a positive impact, and shape their future success.</p>
+<div class="icons">
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-linkedin"></i>
+  <i class="fa-brands fa-telegram"></i>
+</div>
+</section>
+
+<!--------------JavaScript for Toggle Menu------>
+<script>
+var navLinks = document.getElementaryById("navLinks");
+    function showMenu(){
+      navLinks.style.right ="0";
+    }
+    function hideMenu(){
+      navLinks.style.right ="-200";
+    }
+</script>
+  
+</body>
+</html>
